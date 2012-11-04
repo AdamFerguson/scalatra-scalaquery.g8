@@ -5,10 +5,11 @@ A derivative of [Scalatra sbt project](https://github.com/scalatra/scalatra-sbt.
 ## Use this template ##
 
 - [Install giter8 (g8)](https://github.com/n8han/giter8)
+
 ```sh
 $ brew install giter8
-
 ```
+
 - Get the g8 template and run it:
 
 ```sh
