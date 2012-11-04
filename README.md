@@ -8,7 +8,7 @@ A derivative of [Scalatra sbt project](https://github.com/scalatra/scalatra-sbt.
 - Get the g8 template and run it:
 
 ```sh
-$ g8 AdamFerguson/scalatra-slick
+$ g8 AdamFerguson/scalatra-scalaquery
 $ cd <name-of-app>
 $ ./sbt
 > update
@@ -18,7 +18,7 @@ $ ./sbt
 
 - Open the [default website](http://localhost:8080/) in your browser.
 
-# JRebel #
+### JRebel ###
 
 Note: auto-redeploys in scalatra are somewhat hacky. [JRebel](http://zeroturnaround.com/software/jrebel/buy/)
 is an IDE plugin that eases auto-deploy on code changes. They offer free one year licenses for Scala developers.
