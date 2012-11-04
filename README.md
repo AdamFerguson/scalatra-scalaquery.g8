@@ -16,8 +16,6 @@ $ brew install giter8
 $ g8 AdamFerguson/scalatra-scalaquery
 $ cd <name-of-app>
 $ ./sbt
-> update
-> eclipse
 > container:start
 ```
 
