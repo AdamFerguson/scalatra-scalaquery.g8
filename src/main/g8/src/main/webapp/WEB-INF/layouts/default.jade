@@ -1,0 +1,35 @@
+-@ val title: String
+-@ val headline: String = title
+-@ val body: String
+
+!!! 5
+html(lang="en" ng-app="")
+  head
+    title= title
+    script(type="text/javascript" src="http://code.jquery.com/jquery-latest.js")
+    script(type="text/javascript" src="js/bootstrap.min.js")
+    script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js")
+    script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular-resource.min.js")
+
+    link(rel="stylesheet" href="css/bootstrap.min.css")
+    link(rel="stylesheet" href="css/bootstrap-responsive.min.css")
+    link(rel="stylesheet" href="css/app.css")
+  body
+    .navbar.navbar-inverse.navbar-fixed-top
+      .navbar-inner
+        .container
+          button.btn.btn-navbar(type="button" data-toggle="collapse" data-target=".nav-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          .nav-collapse.collapse
+            ul.nav
+              li
+                a(href="/") Scalatra
+    .container
+      h1= headline
+      label Name:
+      input(type="text" ng-model="yourName" placeholder="Enter Your Name")
+      hr
+      h2 Hello {{yourName}}
+      != body
