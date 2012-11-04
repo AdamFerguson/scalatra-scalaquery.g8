@@ -29,6 +29,17 @@ Note: auto-redeploys in scalatra are somewhat hacky. [JRebel](http://zeroturnaro
 is an IDE plugin that eases auto-deploy on code changes. They offer free one year licenses for Scala developers.
 It's definitely worth a look.
 
+### Database ###
+
+This template is setup to work with postgres. The template will prompt you for the database name. This database
+will still need to be created locally. Make sure to run:
+
+```sh
+createdb DATABASE_NAME
+```
+
+From there, ScalaQuery can be used for creating the DB schema using ScalaQuery's [DDL API](https://github.com/szeiger/scala-query/wiki/Getting-Started)
+
 ## Modify this template ##
 
 - [Install sbt](https://github.com/harrah/xsbt/wiki/Getting-Started-Setup), version 0.12.0 or higher.
