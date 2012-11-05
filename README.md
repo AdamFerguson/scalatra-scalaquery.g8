@@ -23,7 +23,7 @@ $ ./sbt
 
 ### JRebel ###
 
-Note: auto-redeploys in scalatra are somewhat hacky. [JRebel](http://zeroturnaround.com/software/jrebel/buy/)
+Note: I recommend checking out [JRebel](http://zeroturnaround.com/software/jrebel/buy/) for auto code redploys.
 is an IDE plugin that eases auto-deploy on code changes. They offer free one year licenses for Scala developers.
 It's definitely worth a look.
 
