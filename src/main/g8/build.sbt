@@ -18,6 +18,6 @@ libraryDependencies ++= Seq(
   "org.eclipse.jetty" % "jetty-webapp" % "8.1.7.v20120910" % "container",
   "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container;provided;test" artifacts (Artifact("javax.servlet", "jar", "jar")),
   "net.liftweb" % "lift-json_2.9.2" % "2.5-M2",
-  "org.scalaquery" %% "scalaquery" % "0.10.0-M1",
+  "org.scalaquery" % "scalaquery" % "0.10.0-M1",
   "postgresql" % "postgresql" % "9.1-901-1.jdbc4"
 )

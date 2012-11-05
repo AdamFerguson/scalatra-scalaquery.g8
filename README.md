@@ -4,39 +4,25 @@ A derivative of [Scalatra sbt project](https://github.com/scalatra/scalatra-sbt.
 
 ## Use this template ##
 
-- [Install giter8 (g8)](https://github.com/n8han/giter8)
-
-```sh
-$ brew install giter8
-```
-
+- [Install giter8 (g8)](https://raw.github.com/ymasory/scalatra-sbt.g8/master/src/main/g8/sbt).
 - Get the g8 template and run it:
 
 ```sh
-$ g8 AdamFerguson/scalatra-scalaquery
+$ g8 AdamFerguson/scalatra-slick
 $ cd <name-of-app>
 $ ./sbt
+> update
+> eclipse
 > container:start
 ```
 
 - Open the [default website](http://localhost:8080/) in your browser.
 
-### JRebel ###
+# JRebel #
 
-Note: I recommend checking out [JRebel](http://zeroturnaround.com/software/jrebel/buy/) for auto code redploys.
+Note: auto-redeploys in scalatra are somewhat hacky. [JRebel](http://zeroturnaround.com/software/jrebel/buy/)
 is an IDE plugin that eases auto-deploy on code changes. They offer free one year licenses for Scala developers.
 It's definitely worth a look.
-
-### Database ###
-
-This template is setup to work with postgres. The template will prompt you for the database name. This database
-will still need to be created locally. Make sure to run:
-
-```sh
-createdb DATABASE_NAME
-```
-
-From there, ScalaQuery can be used for creating the DB schema using ScalaQuery's [DDL API](https://github.com/szeiger/scala-query/wiki/Getting-Started)
 
 ## Modify this template ##
 

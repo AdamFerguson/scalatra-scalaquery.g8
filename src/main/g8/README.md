@@ -5,8 +5,6 @@
 ```sh
 \$ cd \$name__snake\$
 \$ ./sbt
-\> update
-\> eclipse
 > container:start
 ```
 
