@@ -21,6 +21,14 @@ $ ./sbt
 
 - Open the [default website](http://localhost:8080/) in your browser.
 
+### IDE support ###
+
+This template includes plugins that generate all the necessary files for working with
+either eclipse or intellij, depending on your preference. After generating the application,
+execute either `sbt eclipse` or `sbt idea` (or both!) from the project to directory to generate your IDE's
+dependencies. Note, anytime a dependency is added to the build.sbt file, these commands will need
+to be run again.
+
 ### JRebel ###
 
 Note: I recommend checking out [JRebel](http://zeroturnaround.com/software/jrebel/buy/) for auto code redploys.
